@@ -1,6 +1,6 @@
 def square_array(array)
   sq_array = []
-  sq_array.collect { |i| i ** 2 }
+  array.collect { |i| i ** 2 }
   sq_array
 end
 
